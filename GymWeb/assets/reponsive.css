@@ -1,0 +1,106 @@
+@media (max-width:46.1875em){
+    /* template */
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mtt8{
+        margin-top: 8px !important;
+    }
+    #header{
+    overflow: hidden;/*an thuc tinh cua con khi co kich thuc lon hon the ca*/
+
+    }
+
+    #nav > li {
+        display: block;
+    }
+    .search-icon{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+   
+    #nav {
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+    }
+    #nav .subnav li{
+        padding:4px 13px;
+    }
+    #nav li a{
+        display: block;
+       
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    .member-img {
+        display: initial;
+       
+    }
+    
+    .member-img .member {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 25px; */
+        /* align-content: center; */
+    }
+    
+    .img-font {
+        height: 200px;
+        border-radius: 4px;
+        width: 60%;
+    }
+    .imgcontent{
+        display: initial;
+    }
+    
+    .imgcontent-place + .imgcontent-place {
+        margin-top: 16px;
+        margin-left: auto;
+    }
+    
+    .tour-list {
+        margin-bottom: 16px;
+    }
+    
+    /* .input-contact{
+        width: 100%;
+        flex-direction: column;
+    } */
+    /* .input .input-form .col-hal{
+        width: 100%;
+    } */
+    .content-address {
+        
+        margin-bottom: 16px;
+    }
+}
+@media (min-width:46.25em) and (max-width:63.9375em){
+    
+}
+@media ( max-width:63.9375em){
+    .imgcontent-buy { 
+        padding: 11px 16px;
+    }
+    .padding-input {
+        padding: 15px;
+    }
+    .padding-footer-social{
+        padding: 0 8px;
+    }
+    .font-size-ti{
+        font-size: 45px;
+    }
+}
